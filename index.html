@@ -1,32 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="js/jquery-3.2.1.js"></script>
 </head>
 <body>
-
-<p><a href='http://gel2l3k9adyo9a0f8as0d0fadfmmju.gejigezouzhe.com/190418' target='_blank'>http://gel2l3k9adyo9a0f8as0d0fadfmmju.gejigezouzhe.com/190418</a><span></span></p>
-<p><a href='http://cni.jinqinmaoyi.com/190418' target='_blank'>http://cni.jinqinmaoyi.com/190418</a>&nbsp;&nbsp;<span></span></p>
-
-<script>
-var ping    = 1,
-    urlList = ['http://gel2l3k9adyo9a0f8as0d0fadfmmju.gejigezouzhe.com/190418','http://cni.jinqinmaoyi.com/190418'];
-	pinglist=[];
- 
-setInterval("ping++",100);
-newRequest();
-function newRequest(){
-    for(var i=0;i<urlList.length;i++){
-        $("p").eq(i).find('span').html('测速中...');
-        $("p").eq(i).find('span').append("<img src="+urlList[i]+"/"+Math.random()+" width='0' height='0' onerror='autotest("+i+")' style='display:none'>");
-    }
-}
- 
-function autotest(i){
-	pinglist[i]=ping*100+"ms";
-    $("p").eq(i).find("span").text(pinglist[i]);
-}
-</script>
-
+    <h1>Hello Ting Ting!</h1>
+    <p>This is my GitHub Pages.</p>
 </body>
 </html>
